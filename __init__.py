@@ -1,9 +1,14 @@
-from bot import Github
-from user_info import username, password
+from source_codes.bot import Github
+from source_codes.user_info import username, password
 
+"""
+This application is a scraping bot for your Github account.
+Before the using this application go to user_info.py and enter your account informations 
+After then run the __init__.py file. choice your action.
+"""
 def select_event():
     print("Github bot is running.")
-    choice = str(input("""Choice your process
+    choice = str(input("""Choice your action.
     1- Pull your  repostories
     2- Pull your followers list
     3- Pull your following list
