@@ -6,6 +6,8 @@ import time
 
 class Github:
     def __init__(self, username, password):
+        # this line for open your web browser. if you are useing an other browser find your driver file from :
+        # https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
         self.browser = webdriver.Chrome("chromedriver.exe")
         self.username = username
         self.password = password
