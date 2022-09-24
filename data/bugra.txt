@@ -1,0 +1,193 @@
+bugracntp / Simple-Face-Recognition-App-CS
+Forked from antlancer-solutions/Simple-Face-Recognition-App-CS
+Starred
+Simple Face Recognition App CS
+C# 1 Updated on May 11, 2020
+
+AykutSarac / jsoncrack.com
+Sponsor
+Starred
+🔮 Seamlessly visualize your JSON data instantly into graphs; paste, import or fetch!
+TypeScript 15,016 695 Updated 6 hours ago
+
+bugracntp / Enigma-Machine
+Starred
+⛓ Enimga machine simulation
+Python 1 Updated 3 hours ago
+
+bugracntp / bugracntp.io
+Starred
+📍 Personal website with javascript.
+1 Updated on Jan 28
+
+bugracntp / library-management-system
+Starred
+📚Type of library operating system with typescript.
+TypeScript 1 Updated on Dec 8, 2021
+
+bugracntp / envanter
+Starred
+📋Inventory automasion with C#.
+C# 1 Updated on Nov 25, 2021
+
+bugracntp / TurkiyePlakaSorgu
+Starred
+🚗Application to find the license plate of the city you live with java.
+Java 2 Updated on Sep 19, 2021
+
+bugracntp / calendaryapp
+Starred
+🎂Birthday guessing game with java.
+Java 2 Updated on Dec 11, 2021
+
+bugracntp / kutuphane
+Starred
+📚Library automasion with C#.
+C# 2 Updated on Nov 15, 2021
+
+bugracntp / Task_Manager
+Starred
+💻Functional task manager application with C#.
+C# 2 Updated on Dec 29, 2021
+
+electron-react-boilerplate / electron-react-boilerplate
+Sponsor
+Starred
+A Foundation for Scalable Cross-Platform Apps
+TypeScript 20,195 3,419 Updated 3 days ago
+
+atolye15 / stylelint-config
+Starred
+Default stylelint config used by @atolye15
+JavaScript 39 1 Updated on Jun 7
+
+wbkd / react-flow
+Sponsor
+Starred
+Highly customizable library for building an interactive node-based UI, workflow editor, flow chart or static diagram
+TypeScript 12,070 788 Updated 4 days ago
+
+AykutSarac / proc-manager
+Sponsor
+Starred
+🧨 Interactive Process Killer CLI made with Go!
+Go 21 2 Updated on Dec 28, 2021
+
+pankod / refine
+Starred
+Build your React-based CRUD applications, without constraints.
+TypeScript 3,019 222 Updated 14 hours ago
+
+ClickHouse / ClickHouse
+Starred
+ClickHouse® is a free analytics DBMS for big data
+C++ 25,504 5,131 Updated 5 hours ago
+
+AykutSarac / react-jimp
+Sponsor
+Starred
+🎨 Easy image manipulation component for React. JIMP's React implementation.
+JavaScript 3 Updated on Nov 15, 2021
+
+AykutSarac / chatapp
+Sponsor
+Starred
+Chat application made using socket.io & express on Node.js.
+HTML 2 Updated on Aug 6, 2020
+
+AykutSarac / express-authentication
+Sponsor
+Starred
+Simple authentication repository made with Express & MongoDB
+JavaScript 4 Updated on Sep 23, 2020
+
+AykutSarac / vue-todoapp
+Sponsor
+Starred
+📆 Simple todo app made with Vue to learn the basics.
+Vue 2 Updated on Nov 8, 2020
+
+AykutSarac / express-blog
+Sponsor
+Starred
+(Incomplete) Express blog application.
+JavaScript 1 Updated on Dec 26, 2020
+
+AykutSarac / vue-quizapp
+Sponsor
+Starred
+💡 Quiz app made using Vue, Vuex & Open Trivia DB.
+Vue 4 1 Updated on Jan 1, 2021
+
+AykutSarac / react-quiz
+Sponsor
+Starred
+💡 Quiz app made using React & Open Trivia DB.
+JavaScript 30 20 Updated on Mar 6, 2021
+
+AykutSarac / contact-keeper
+Sponsor
+Starred
+Contact Keeper app made with MERN stack.
+JavaScript 1 Updated on Mar 22, 2021
+
+AykutSarac / it-logger
+Sponsor
+Starred
+IT-Logger app made with React & Redux.
+JavaScript 2 Updated on Mar 27, 2021
+
+AykutSarac / exxen-clone
+Sponsor
+Starred
+🎞 This project is a frontend clone of Exxen created with React.
+JavaScript 6 Updated on Mar 29, 2021
+
+AykutSarac / unifind
+Sponsor
+Starred
+🗺 Search for universities around the world. Made with React, Universities API & Flags API.
+JavaScript 5 Updated on Mar 31, 2021
+
+AykutSarac / epic-games-clone
+Sponsor
+Starred
+🎮 Epic Games Launcher frontend clone made with React & Redux.
+JavaScript 19 1 Updated on May 12, 2021
+
+AykutSarac / linkedin-dark
+Sponsor
+Starred
+🕯 Dark Theme extension for LinkedIn with Discord color schema.
+CSS 6 Updated on Apr 6
+
+AykutSarac / print-web
+Sponsor
+Starred
+🖨 Print screenshot of website using Vue, Express & Puppeteer.
+Vue 5 Updated on Jun 6, 2021
+
+AykutSarac / aykutsarac.github.io
+Sponsor
+Starred
+⚡️ Personal website made with Next.js.
+TypeScript 6 1 Updated on May 4
+
+AykutSarac / github-gram
+Sponsor
+Starred
+📷 GitHub-gram lets you to view GitHub users in instagram-like layout, check users repositories. Made with Nuxt.js and GitHub API.
+Vue 8 1 Updated on Sep 25, 2021
+
+AykutSarac / chatify
+Sponsor
+Starred
+💬 Realtime Chat application made with Vue 3, Fastify and WebSocket.
+Vue 71 18 Updated on Oct 29, 2021
+
+AykutSarac / github-rater
+Sponsor
+Starred
+📊 Check your GitHub rating, view results and enhance your profile quality.
+TypeScript 340 4 Updated on Jul 23
+

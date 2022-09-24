@@ -1,3 +1,4 @@
+from multiprocessing.connection import wait
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -29,7 +30,7 @@ class Github:
         signin_btn = self.browser.find_element(By.XPATH,"//*[@id='login']/div[4]/form/div/input[12]")
         signin_btn.click()
 
-    def get_repos(self, save = True):
+    def get_repos(self, save, name):
         self.sign_In()
         time.sleep(1)
         dropdown = self.browser.find_element(By.XPATH,"/html/body/div[1]/header/div[7]/details")
@@ -77,19 +78,13 @@ class Github:
                         continue
 
         # write list of your repostories on the console
-        for r in repo_list:
-            print(r,"\n")    
-        # if save is True it will save your datas as a txt file
-        if save:
-            with open ("repos.txt","w",encoding = "UTF-8") as file:
-                for r in repo_list:
-                    file.write(r+"\n")
-                    file.write("\n")
+        
+        self.file_writer(file=name, list = repo_list, save=save)   
                     
         time.sleep(3)
         self.browser.close()
     
-    def get_followers(self, save):
+    def get_followers(self, save,name):
         self.sign_In()
         time.sleep(1)
         dropdown = self.browser.find_element(By.XPATH,"/html/body/div[1]/header/div[7]/details")
@@ -140,19 +135,13 @@ class Github:
                     else:
                         continue
         # write list of your repostories on the console                
-        for f in follower_list:
-            print(f,"\n")    
-        # if save is True it will save your datas as a txt file
-        if save:
-            with open ("followers.txt","w",encoding = "UTF-8") as file:
-                for f in follower_list:
-                    file.write(f+"\n")
-                    file.write("\n")
+        
+        self.file_writer(file=name, list = follower_list, save=save)   
                     
         time.sleep(3)
         self.browser.close()
 
-    def get_followings(self, save):
+    def get_followings(self, save,name):
         self.sign_In()
         time.sleep(1)
         dropdown = self.browser.find_element(By.XPATH,"/html/body/div[1]/header/div[7]/details")
@@ -203,20 +192,13 @@ class Github:
                     else:
                         continue
 
-        for f in following_list:
-            print(f,"\n")    
-
-        # if save is True it will save your datas as a txt file
-        if save:
-            with open ("following_list.txt","w",encoding = "UTF-8") as file:
-                for f in following_list:
-                    file.write(f+"\n")
-                    file.write("\n")
-
+        self.file_writer(file=name, list = following_list, save=save)       
+            
         time.sleep(3)
         self.browser.close()
 
-    def get_last_started(self,save):
+    def get_last_started(self,save,name):
+
         self.sign_In()
         time.sleep(1)
         dropdown = self.browser.find_element(By.XPATH,"/html/body/div[1]/header/div[7]/details")
@@ -267,14 +249,17 @@ class Github:
                     else:
                         continue
 
-        for s in started_list:
-            print(s,"\n")
+        self.file_writer(file=name, list = started_list, save=save)       
 
-        # if save is True it will save your datas as a txt file
-        if save:
-            with open ("starteds.txt","w",encoding = "UTF-8") as file:
-                for s in started_list:
-                    file.write(s+"\n")
-                    file.write("\n")
         time.sleep(3)
         self.browser.close()
+
+    def file_writer(self, file, list, save):
+        for l in list:
+            print(l,"\n")
+            # if save is True it will save your datas as a txt file
+        if save:
+            with open (f"data/{file}.txt","w",encoding = "UTF-8") as file:
+                for l in list:
+                    file.write(l+"\n")
+                    file.write("\n")
