@@ -9,7 +9,7 @@ After then run the __init__.py file. choice your action.
 """
 def select_event():
     print("Github bot is running.")
-    choice = str(input("""Choice your action.
+    choice = str(input("""Please choice your action.
     1- Pull your  repostories
     2- Pull your followers list
     3- Pull your following list
@@ -17,7 +17,7 @@ def select_event():
     5- Close the bot
     """))
     save = input("Do you want save the datas ? Y/N.")
-    name = input("enter your file name") if save.upper() == "Y" else ""
+    name = input("Please enter your file name : ") if save.upper() == "Y" else ""
     
     git_bot = Github(username, password)
     if choice == "1":
