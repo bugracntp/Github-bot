@@ -97,9 +97,9 @@ class Github:
         time.sleep(1)
         profile_btn = self.browser.find_element(By.XPATH,"/html/body/div[1]/header/div[7]/details/details-menu/a[1]")
         profile_btn.click()
-        time.sleep(1)
+        time.sleep(2)
 
-        followers_btn = self.browser.find_element(By.XPATH,"/html/body/div[5]/main/div[2]/div/div[1]/div/div[2]/div[3]/div[2]/div[2]/div/a[1]")
+        followers_btn = self.browser.find_element(By.XPATH,"/html/body/div[5]/main/div[2]/div/div[1]/div/div[2]/div[3]/div[2]/div[3]/div/a[1]")
         followers_btn.click()
         time.sleep(1)
         
