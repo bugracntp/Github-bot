@@ -5,7 +5,8 @@
 >This application is a scraping bot for your Github account.
 
 ### How it's work
-- Before the using this application go to user_info.py and enter your account informations 
+- Before the using this application go to user_info.py and enter your account informations.
+- Open __init__.py file for using this application.
 - After then run the __init__.py file. choice your action.
 
 ### SYSTEM REQUEST
