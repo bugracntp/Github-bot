@@ -1,3 +1,4 @@
+from unicodedata import name
 from source_codes.bot import Github
 from source_codes.user_info import username, password
 
@@ -16,16 +17,17 @@ def select_event():
     5- Close the bot
     """))
     save = input("Do you want save the datas ? Y/N.")
+    name = input("enter your file name") if save.upper() == "Y" else ""
     
     git_bot = Github(username, password)
     if choice == "1":
-        git_bot.get_repos(save= True if save.upper() == "Y" else False)
+        git_bot.get_repos(save= True if save.upper() == "Y" else False, name = name)
     elif choice == "2":
-        git_bot.get_followers(save= True if save.upper() == "Y" else False)
+        git_bot.get_followers(save= True if save.upper() == "Y" else False, name = name)
     elif choice == "3":
-        git_bot.get_followings(save= True if save.upper() == "Y" else False)
+        git_bot.get_followings(save= True if save.upper() == "Y" else False, name = name)
     elif choice == "4":
-        git_bot.get_last_started(save= True if save.upper() == "Y" else False)        
+        git_bot.get_last_started(save= True if save.upper() == "Y" else False, name = name)        
 
 select_event()
 
