@@ -1,2 +1,2 @@
-username = "bugracntp"
-password = "172320.Ka"
+username = ""
+password = ""
