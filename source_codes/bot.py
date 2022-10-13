@@ -27,7 +27,7 @@ class Github:
 
         time.sleep(1)
         # take the submit button and login your account.
-        signin_btn = self.browser.find_element(By.XPATH,"//*[@id='login']/div[4]/form/div/input[12]")
+        signin_btn = self.browser.find_element(By.XPATH,"//*[@id='login']/div[4]/form/div/input[11]")
         signin_btn.click()
 
     def get_repos(self, save, name):
